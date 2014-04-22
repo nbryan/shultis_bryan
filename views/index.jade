@@ -1,21 +1,57 @@
 extends layout
 
 block content
+  h1 Schedule
+  h2 Ceremony
   p
-    | Hey all, we're busy getting this site together. Check back around May 1 and we'll have info on accomodations,
-    | things to do, wedding schedule, and anything else you might want to know. If you have any questions before then,
-    | email 
-    a(href='mailto:nathan.bryan@gmail.com') Nathan
+    | The ceremony will take place on Saturday at 11:00 a.m. and will take place at 
+    a(href='http://www.centralparknyc.org/things-to-see-and-do/attractions/summit-rock.html') Summit Rock
+    |  in 
+    a(href='http://www.centralparknyc.org/') Central Park
+    | .
+  p
+    | By subway, take the 
+    span.train.sixth B
     |  or 
-    a(href='mailto:addieshultis@gmail.com') Adeline
-    |  and we'll be happy to help!
-  //h2 Ceremony
-  //p.when Saturday, 11:00 a.m.
-  //p.where Summit Rock, Central Park
-  //h2 Reception
-  //p.when Saturday, 12:00 p.m.
-  //p.where Bobo, West Village
+    span.train.eighth C
+    |  train to 
+    strong 81st Street
+    |  or take the 
+    span.train.seventh 1
+    |  train to 
+    strong 79th Street
+    | . By 
+    span.taxi taxi
+    |  go to 
+    strong 81st Street and Central Park West
+    | . You may also take the M79 (crosstown) or M10 (up/downtown) bus.
+  p Enter the park at the northeast corner of 81st Street and Central Park West. Follow the path to the left up to Summit Rock.
+  .map
+     iframe(src='https://www.google.com/maps/embed/v1/place?q=Summit%20Rock%2C%20Central%20Park%20West%2C%20New%20York%2C%20United%20States&key=AIzaSyDyiX3QD9gMuieHbvQK3g13Xq2U-h4g9ZI')
+
+  h2 Reception
+  p
+    | A reception will follow at 12:00 p.m. at 
+    a(href='http://bobonyc.com/') Bobo
+    |  in the West Village.
+  p
+    | From Summit Rock, take the 
+    span.train.sixth B
+    |  or 
+    span.train.eighth C
+    |  train to 
+    strong West 4th Street
+    |  or take the 
+    span.train.seventh 1
+    |  train to 
+    strong Christopher Street
+    | . By 
+    span.taxi taxi
+    | , go to 
+    strong West 10th Street and 7th Avenue.
+  p
+    | Bobo is located at 181 W 10th Street on the northwest corner of West 10th Street and 7th Avenue.
+  .map
+    iframe(src='https://www.google.com/maps/embed/v1/place?q=Bobo%2C%20West%2010th%20Street%2C%20New%20York%2C%20NY%2C%20United%20States&key=AIzaSyDyiX3QD9gMuieHbvQK3g13Xq2U-h4g9ZI')
   //h2 Afterparty
-  //h2 The Following Morning
-  //p.when Sunday, 10:00 a.m.
-  //p.where Our Apartment, Upper West Side
+  //h2 The Morning After
