@@ -10,9 +10,40 @@ body {
   font-weight: 200;
 }
 
-#content {
+#page-wrapper {
   margin: 0 auto;
   max-width: 960px;
+}
+
+#page-header img {
+  width: 100%;
+  height: auto;
+}
+
+#content-wrapper {
+  padding: 0 10px;
+}
+
+nav {
+  float: left;
+  width: 25%;
+}
+
+nav ul ul {
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#content {
+  float: left;
+  width: 75%;
 }
 
 h1 {

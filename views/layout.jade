@@ -6,5 +6,32 @@ html
     link(rel='stylesheet', type='text/css', href='/stylesheets/application.css')
     meta(name='viewport', content='width=device-width')
   body
-    #content
-      block content
+    #page-wrapper
+      header#page-header
+        img(src='/images/page_header.jpg', alt='Adeline and Nathan')
+      #content-wrapper
+        nav
+          ul
+            li
+              a(href='/') Home
+            li
+              a(href='/events') Wedding Weekend Events
+            li
+              a(href='/accomodation') Accomodation
+            li
+              a(href='/transportation') Transportation
+            li
+              a(href='/rsvp') RSVP
+            li
+              a(href='/registry') Our Registries
+            li
+              a(href='/contact') Contact Us
+            li
+              | Useful Links
+              ul
+                li
+                  a(href='') Subway Map
+                li
+                  a(href='') Bus Map
+        #content
+          block content
