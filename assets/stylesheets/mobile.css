@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+  nav {
+    float: none;
+    width: auto;
+  }
+
+  #content {
+    float: none;
+    width: auto;
+  }
+}
