@@ -7,11 +7,11 @@ html
     link(rel='stylesheet', type='text/css', href='/stylesheets/mobile.css')
     meta(name='viewport', content='width=device-width')
   body
-    #page-wrapper
+    #page(class=page)
       header#page-header
         img(src='/images/page_header.jpg', alt='Adeline and Nathan')
       #content-wrapper
-        nav
+        nav#nav
           ul
             li
               a(href='/') Home
@@ -31,8 +31,10 @@ html
               | Useful Links
               ul
                 li
-                  a(href='') Subway Map
+                  a(href='http://web.mta.info/nyct/maps/subwaymap.pdf') Subway Map
                 li
-                  a(href='') Bus Map
+                  a(href='http://web.mta.info/nyct/maps/manbus.pdf') Bus Map
         #content
           block content
+      footer#page-footer
+        p &copy; 2014 Nathan Bryan and Adeline Shultis
