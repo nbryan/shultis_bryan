@@ -87,6 +87,20 @@ h3 {
   font-weight: 600;
 }
 
+table {
+  width: 100%;
+}
+
+th {
+  font-weight: 600;
+  text-align: left;
+  width: 15%;
+}
+
+td {
+  text-align: left;
+}
+
 strong {
   font-weight: 600;
 }
