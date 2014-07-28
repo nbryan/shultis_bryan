@@ -43,11 +43,16 @@ p, li {
   font-size: 12px;
 }
 
+#left-column {
+  float: left;
+  width: 25%;
+}
+
 nav {
   color: #777;
-  float: left;
+/*  float: left;*/
   font-size: 18px;
-  width: 25%;
+/*  width: 25%;*/
 }
 
 nav ul ul {
@@ -64,9 +69,17 @@ nav a:hover {
   text-decoration: underline;
 }
 
+#left-column img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+}
+
 #content {
-  float: left;
-  width: 75%;
+  float: right;
+  width: 70%;
 }
 
 h1 {
@@ -105,16 +118,8 @@ strong {
   font-weight: 600;
 }
 
-#page.index #content {
-  text-align: center;
-}
-
-#page.index #content img {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 450px;
-  height: auto;
+em {
+  font-style: italic;
 }
 
 .train {

@@ -11,30 +11,32 @@ html
       header#page-header
         img(src='/images/page_header.jpg', alt='Adeline and Nathan')
       #content-wrapper
-        nav#nav
-          ul
-            li
-              a(href='/') Home
-            li
-              a(href='/events') Wedding Weekend Events
-            li
-              a(href='/accomodation') Accomodation
-            li
-              a(href='/transportation') Transportation
-            li
-              a(href='/rsvp') RSVP
-            li
-              a(href='/registries') Our Registries
-            li
-              a(href='/contact') Contact Us
-            li
-              | Useful Links
-              ul
-                li
-                  a(href='http://web.mta.info/nyct/maps/subwaymap.pdf') Subway Map
-                li
-                  a(href='http://web.mta.info/nyct/maps/manbus.pdf') Bus Map
         #content
           block content
+        #left-column
+          nav#nav
+            ul
+              li
+                a(href='/') Home
+              li
+                a(href='/events') Wedding Weekend Events
+              li
+                a(href='/accomodation') Accomodation
+              li
+                a(href='/transportation') Transportation
+              li
+                a(href='/rsvp') RSVP
+              li
+                a(href='/registry') Our Registry
+              li
+                a(href='/contact') Contact Us
+              li
+                | Useful Links
+                ul
+                  li
+                    a(href='http://web.mta.info/nyct/maps/subwaymap.pdf') Subway Map
+                  li
+                    a(href='http://web.mta.info/nyct/maps/manbus.pdf') Bus Map
+          img(src='/images/happy_couple.jpg' alt='The Happy Couple')
       footer#page-footer
         p &copy; 2014 Nathan Bryan and Adeline Shultis
