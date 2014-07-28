@@ -122,6 +122,11 @@ em {
   font-style: italic;
 }
 
+p.time {
+  margin-top: -1em;
+  font-style: italic;
+}
+
 .train {
   color: #fff;
   background: #808183;
