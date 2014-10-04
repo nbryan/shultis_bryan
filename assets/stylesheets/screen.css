@@ -140,6 +140,11 @@ p.time {
   text-align: center;
 }
 
+.train.broadway {
+  background: #fccc0a;
+  color: #000;
+}
+
 .train.sixth {
   background: #ff6319;
 }
